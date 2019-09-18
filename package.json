@@ -1,0 +1,19 @@
+{
+  "name": "CHATAPP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "socket.io": "^2.2.0"
+  }
+}
